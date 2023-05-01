@@ -3,8 +3,15 @@
     padding: unset;
 }
 body{
-    background: cadetblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size:100% 100% ;
+    color: black;
+    
+    
+    
 }
+
 nav{
     background: grey;
     height: 3rem;
@@ -17,13 +24,26 @@ nav{
     padding: 1rem;
 }
 #itemForm label {
-    display: block;
-    margin-bottom: 1rem;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 #itemForm input {
-    height: 2rem;
-    text-align: center;
-    border: 1px solid #bfbfbf;
+    height: 3.5rem;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+  /* display: flex;
+    justify-content: space-around; */
+  width: 16rem;
+  font-size: 1rem;
+  /* text-align: start; */
+  padding: 0 0.2rem;
+  outline: none;
+  border: none;
+  
+  background-color: #fff
+  
 }
 
 #quantityInput, #priceInput {
@@ -31,8 +51,8 @@ nav{
 }
 #addItemButton {
     border: unset;
-    background: brown;
-    color: cadetblue;
+    background: blue;
+    color: red;
     padding: 0.5rem;
 }
 #itemsDiv {
@@ -73,4 +93,18 @@ nav{
 }
 .purchased p {
     text-decoration: line-through;
+}
+.Taiwo{
+ background: #fff;
+ border-radius: 15%;
+ width: 20%;
+ margin-top: 10%;
+ margin-left: 20%;
+ 
+
+}
+#totalPriceDiv {
+    background: #fff;
+    border-radius: 15%;
+ width: 20%;
 }

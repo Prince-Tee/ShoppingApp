@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="manifest" href="./manifest.json">
     <script src="./dexie.min.js"></script>
+    <link rel="picture" href="./assets/pic.jpg">
 
     <script>
         if ('serviceWorker' in navigator) {
@@ -19,27 +20,27 @@
     </script>
 
 </head>
-<body>
+<body style="background-image: url('./assets/pic.jpg');">
     <nav>
-     <p>My List</p>
+     <h1>Shopping Made Easy With Grocery App</h1>
+    
 
     </nav>
    <div class="container">
      <form id="itemForm">
         
         <label>
-            Name of Item:
-        <input type="text" id="nameInput" required>
+        <input type="text" id="nameInput" required placeholder="Name of Item">
        </label>
         
        <label>
-        Quantity:
-       <input type="number" id="quantityInput" value="1">
+        
+       <input type="number" id="quantityInput"  placeholder="Quantity">
        </label>
 
        <label>
-        Price:
-        <input type="text" id="priceInput" value="0"> 
+        
+        <input type="text" id="priceInput"  placeholder=" Price"> 
       </label>
 
      <button type="submit" id="addItemButton">
@@ -56,5 +57,7 @@
    
    <script src="./index.js"></script>
 
+   
+   <p class="Taiwo">Made With ❤ ❤ ❤ By Taiwo </p>
 </body>
 </html>
